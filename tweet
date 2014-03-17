@@ -1,0 +1,25 @@
+class Tweet
+
+  def content
+    @my_tweet
+  end
+  
+  def content=(value)
+    @my_tweet = value
+  end
+  
+  def valid?
+    if @my_tweet.length > 140
+      return false
+    end
+  end
+
+  def post
+    if valid?
+      puts content
+      true
+    else
+      false
+    end
+  end
+end
