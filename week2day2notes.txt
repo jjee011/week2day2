@@ -1,0 +1,17 @@
+Objects in Ruby
+
+= is a method. 
+
+@ -> instance variable, for a particular object.
+
+without an @ is a local variable, will be destroyed once the method ends.
+
+
+Class = blueprint for objects, ex. blueprint for different cars within the same company
+
+class Book
+	attr_accessor :title, :author
+end
+
+Arrays
+arr can enter any object such as numbers or strings
